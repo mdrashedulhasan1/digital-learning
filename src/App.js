@@ -11,6 +11,7 @@ import PopularCourses from './Pages/Home/PopularCourses/PopularCourses';
 import AllCourse from './Pages/Home/AllCourse/AllCourse';
 import ContactUs from './Pages/Home/ContactUs/ContactUs';
 import NotFound from './Pages/NotFound/NotFound';
+import About from './Pages/Home/About/About';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,9 @@ function App() {
       <Switch>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="/popular-courses">
             <PopularCourses></PopularCourses>
